@@ -29,5 +29,9 @@
     background-color: rgb(197, 197, 197);
   }
   img {
+    position: fixed;
+    top: 100px;
+    left: 230px;
     width:340px;height:244px;
+    border-radius: 50%;
   }
