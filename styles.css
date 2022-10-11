@@ -5,4 +5,23 @@
     color: rgb(197, 197, 197);
     font-size: 30px;
   }
-  
+  a:link {
+    color: rgb(197, 197, 197);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: rgb(197, 197, 197);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: rgb(5, 5, 5);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:active {
+    color: rgb(23, 236, 252);
+    background-color: transparent;
+    text-decoration: none;
+  }
