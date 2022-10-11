@@ -25,3 +25,9 @@
     background-color: transparent;
     text-decoration: none;
   }
+  body {
+    background-color: rgb(197, 197, 197);
+  }
+  img {
+    width:340px;height:244px;
+  }
