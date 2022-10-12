@@ -36,3 +36,16 @@
     width:340px;height:244px;
     border-radius: 50%;
   }
+  .hobbies {
+    position: fixed;
+    left: 270px;
+    margin: 10px;
+    border-style: double;
+    border-radius: 25px;
+  }
+  ul {
+    list-style-type: square;
+    line-height: 23px;
+    font-size: 20px;
+  }
+ 
