@@ -4,6 +4,11 @@
     background: #56038d;
     color: rgb(197, 197, 197);
     font-size: 30px;
+    display: flex;
+  }
+  .header-body {
+    margin-left: auto;
+    margin-right: auto;
   }
   a:link {
     color: rgb(197, 197, 197);
@@ -30,18 +35,20 @@
     color: #56038d;
   }
   img {
-    position: fixed;
+    left: 100px;
     top: 100px;
-    left: 230px;
     width:340px;height:244px;
     border-radius: 50%;
+    position: absolute;
   }
   .hobbies {
-    position: fixed;
-    left: 270px;
-    margin: 10px;
+    margin-left: 120px;
+    padding: 10px;
+    max-width: 340px;
     border-style: double;
     border-radius: 25px;
+    justify-content: center;
+    align-content: center;
   }
   ul {
     list-style-type: square;
