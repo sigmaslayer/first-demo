@@ -6,22 +6,22 @@
     font-size: 30px;
     display: flex;
  }
-   a[target=_blank]:link {
+   a.gitHublink:link {
     color: rgb(197, 197, 197);
     background-color: transparent;
     text-decoration: underline;
   }
-  a[target=_blank]:visited {
+  a.gitHublink:visited {
     color: rgb(197, 197, 197);
     background-color: transparent;
     text-decoration: none;
   }
-  a[target=_blank]:hover {
+  a.gitHublink:hover {
     color: rgb(5, 5, 5);
     background-color: transparent;
     text-decoration: none;
   }
-  a[target=_blank]:active {
+  a.gitHublink:active {
     color: rgb(23, 236, 252);
     background-color: transparent;
     text-decoration: none;
@@ -50,14 +50,14 @@
     justify-content: center;
     align-content: center;
   }
-  a[target=_twitch] {
+  a.twitchlink {
     color: #56038d;
   }
-  a[target=_twitch]:hover {
+  a.twitchlink:hover {
     color: rgb(5, 5, 5);
     text-decoration: none;
   }  
-  a[target=_twitch]:active {
+  a.twitchlink:active {
     color: rgb(23, 236, 252);
     background-color: transparent;
     text-decoration: none;
@@ -66,5 +66,17 @@
     list-style-type: square;
     line-height: 23px;
     font-size: 20px;
+  }
+  .aboutME {
+    max-width: 33%;
+  }
+  .flex-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .flex-container > div {
+    margin: 10px;
+    padding: 20px;
   }
  
