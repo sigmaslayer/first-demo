@@ -5,30 +5,30 @@
     color: rgb(197, 197, 197);
     font-size: 30px;
     display: flex;
+ }
+   a[target=_blank]:link {
+    color: rgb(197, 197, 197);
+    background-color: transparent;
+    text-decoration: underline;
   }
-  .header-body {
-    margin-left: auto;
-    margin-right: auto;
-  }
-  a:link {
+  a[target=_blank]:visited {
     color: rgb(197, 197, 197);
     background-color: transparent;
     text-decoration: none;
   }
-  a:visited {
-    color: rgb(197, 197, 197);
-    background-color: transparent;
-    text-decoration: none;
-  }
-  a:hover {
+  a[target=_blank]:hover {
     color: rgb(5, 5, 5);
     background-color: transparent;
     text-decoration: none;
   }
-  a:active {
+  a[target=_blank]:active {
     color: rgb(23, 236, 252);
     background-color: transparent;
     text-decoration: none;
+  }
+  .header-body {
+    margin-left: auto;
+    margin-right: auto;
   }
   body {
     background-color: rgb(197, 197, 197);
@@ -49,6 +49,18 @@
     border-radius: 25px;
     justify-content: center;
     align-content: center;
+  }
+  a[target=_twitch] {
+    color: #56038d;
+  }
+  a[target=_twitch]:hover {
+    color: rgb(5, 5, 5);
+    text-decoration: none;
+  }  
+  a[target=_twitch]:active {
+    color: rgb(23, 236, 252);
+    background-color: transparent;
+    text-decoration: none;
   }
   ul {
     list-style-type: square;
