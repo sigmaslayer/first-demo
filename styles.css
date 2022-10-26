@@ -33,6 +33,7 @@
   body {
     background-color: rgb(197, 197, 197);
     color: #56038d;
+    font-size: 17px;
   }
   img {
     left: 100px;
@@ -50,19 +51,19 @@
     justify-content: center;
     align-content: center;
   }
-  a.twitchlink {
+  a.mainbodylink {
     color: #56038d;
   }
-  a.twitchlink:hover {
+  a.mainbodylink:hover {
     color: rgb(5, 5, 5);
     text-decoration: none;
   }  
-  a.twitchlink:active {
+  a.mainbodylink:active {
     color: rgb(23, 236, 252);
     background-color: transparent;
     text-decoration: none;
   }
-  ul {
+  ul.hobbieslist {
     list-style-type: square;
     line-height: 23px;
     font-size: 20px;
