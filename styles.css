@@ -35,6 +35,10 @@
     color: #56038d;
     font-size: 17px;
   }
+  .dark-mode {
+    background-color: black;
+    color: rgb(197, 197, 197);
+  }
   img {
     left: 100px;
     top: 100px;
