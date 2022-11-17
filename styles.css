@@ -4,7 +4,9 @@
     background: #56038d;
     color: rgb(197, 197, 197);
     font-size: 30px;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
  }
    a.gitHublink:link {
     color: rgb(197, 197, 197);
@@ -54,11 +56,8 @@
     cursor: pointer;
   }
   img {
-    left: 100px;
-    top: 100px;
     width:340px;height:244px;
     border-radius: 50%;
-    position: absolute;
   }
   .hobbies {
     margin-left: 120px;
@@ -93,20 +92,40 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    flex-wrap: wrap;
   } 
   .flex-container > div {
     margin: 10px;
     padding: 20px;
   }
+  .socials {
+    max-width: 33%;
+    height: auto;
+  }
   .fa-instagram {
     background: #125688;
     color: white;
   }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+    display: flex;
+  }
   .fa {
     padding: 20px;
-    font-size: 30px;
-    width: 50px;
+    font-size: 40px;
+    width: 100px;
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
+  }
+  @media screen and (max-width: 991px) {
+    .header {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    img {
+      width: 300px;
+      height: 204px;
+    } 
   }
