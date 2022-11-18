@@ -80,6 +80,19 @@
     background-color: transparent;
     text-decoration: none;
   }
+  a.hiddenlink {
+    color: #56038d;
+    text-decoration: none;
+  }
+  a.hiddenlink:hover {
+    color: rgb(5, 5, 5);
+    text-decoration: none;
+  }  
+  a.hiddenlink:active {
+    color: rgb(23, 236, 252);
+    background-color: transparent;
+    text-decoration: none;
+  }
   ul.hobbieslist {
     list-style-type: square;
     line-height: 23px;
@@ -99,17 +112,68 @@
     padding: 20px;
   }
   .socials {
-    max-width: 33%;
+    max-width: 11%;
     height: auto;
   }
-  .fa-instagram {
-    background: #125688;
-    color: white;
-  }
   .fa-linkedin {
-    background: #007bb5;
-    color: white;
+    background: #56038d;
+    color: rgb(197, 197, 197);
     display: flex;
+    border-radius: 25px;
+  }
+  .fa-linkedin:hover {
+    color: rgb(5, 5, 5);
+    text-decoration: none;
+  }
+  .fa-linkedin:active {
+    color: rgb(23, 236, 252);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .fa-twitch {
+    background: #56038d;
+    color: rgb(197, 197, 197);
+    display: flex;
+    border-radius: 25px;
+  }
+  .fa-twitch:hover {
+    color: rgb(5, 5, 5);
+    text-decoration: none;
+  }
+  .fa-twitch:active {
+    color: rgb(23, 236, 252);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .fa-github {
+    background: #56038d;
+    color: rgb(197, 197, 197);
+    display: flex;
+    border-radius: 25px;
+  }
+  .fa-github:hover {
+    color: rgb(5, 5, 5);
+    text-decoration: none;
+  }
+  .fa-github:active {
+    color: rgb(23, 236, 252);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .fa-twitter {
+    background: #56038d;
+    color: rgb(197, 197, 197);
+    display: flex;
+    border-radius: 25px;
+  }
+  .fa-twitter:hover {
+    color: rgb(5, 5, 5);
+    text-decoration: none;
+  }
+  .fa-twitter:active {
+    color: rgb(23, 236, 252);
+    background-color: transparent;
+    text-decoration: none;
   }
   .fa {
     padding: 20px;
